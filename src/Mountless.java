@@ -6,6 +6,6 @@ public class Mountless implements IMount {
 
     @Override
     public int journeyDuration(int distance) {
-        return (int) (distance*0.50);
+        return (int) (distance*0.03);
     }
 }

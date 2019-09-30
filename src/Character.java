@@ -3,9 +3,6 @@ public abstract class Character {
     public IMount mount;
     public IWeapon weapon;
 
-    public Character() {
-    }
-
     public Character(String name) {
         this.name = name;
     }
@@ -32,9 +29,9 @@ public abstract class Character {
 
     public void info() {
         System.out.println("===============CHARACTER INFO====================");
-        System.out.println("Name: " + name);
+        System.out.println("Name: " + name + ".");
         System.out.println("Class: "+ getType());
-        System.out.println("Weapon: "+ weapon.getType() + ". Weapon damage: "+ weapon.weaponDamage());
+        System.out.println("Weapon: "+ weapon.getType() + ". Weapon damage: "+ weapon.weaponDamage()+ " points.");
         System.out.println("Mount: "+ mount.getType());
         System.out.println("=================================================");
     }

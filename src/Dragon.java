@@ -6,6 +6,6 @@ public class Dragon implements IMount {
 
     @Override
     public int journeyDuration(int distance) {
-        return (int) (distance*0.1);
+        return (int) (distance*0.005);
     }
 }

@@ -6,6 +6,6 @@ public class Horse implements IMount{
 
     @Override
     public int journeyDuration(int distance) {
-        return (int) (distance*0.25);
+        return (int) (distance*0.015);
     }
 }
